@@ -12,16 +12,14 @@ import ForgetPwd from "../pages/Authentication/ForgetPassword";
 
 // Dashboard
 import Dashboard from "../pages/Dashboard/index";
-import LeaderBoard from "pages/LeaderBoard";
-import Participator from "pages/Participator/participator";
+
 import CryptoIcoLanding from "pages/CryptoIcoLanding";
 
 const authProtectedRoutes = [
   { path: "/dashboard", component: <Dashboard /> },
   // //profile
   { path: "/profile", component: <UserProfile /> },
-  { path: "/Leaderboard", component: <LeaderBoard /> },
-  { path: "/participator", component: <Participator/> },
+  ,
 
   // this route should be at the end of all other routes
   // eslint-disable-next-line react/display-name
@@ -31,7 +29,7 @@ const publicRoutes = [
   {
     path: "/",
     exact: true,
-    component: <Navigate to="/Leaderboard" />,
+    component: <Navigate to="/Landing" />,
   },
   { path: "/Landing", component: <CryptoIcoLanding /> },
   { path: "/login", component: <Login /> },

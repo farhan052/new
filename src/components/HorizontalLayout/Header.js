@@ -27,7 +27,7 @@ import bitbucket from "../../assets/images/brands/bitbucket.png";
 import dribbble from "../../assets/images/brands/dribbble.png";
 import dropbox from "../../assets/images/brands/dropbox.png";
 import mail_chimp from "../../assets/images/brands/mail_chimp.png";
-import slack from "../../assets/images/brands/slack.png";
+import slack from "../../assets/images/crypto/features-img/zeb_logo.webp";
 
 //i18n
 import { withTranslation } from "react-i18next";
